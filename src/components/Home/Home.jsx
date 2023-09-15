@@ -6,6 +6,8 @@ import "./Home.css"
 const Home = () => {
     const [allCourse, setCourse] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
+    const [remaining, setRemaining] = useState([]);
+    const [totalCredit, setTotalCredit] = useState([]);
 
     useEffect(() => {
         fetch("./data.json")
@@ -13,9 +15,34 @@ const Home = () => {
             .then((data) => setCourse(data))
     }, [])
 
+
     const handleSelectCourse = (course) => {
-        setSelectedCourses([...selectedCourses ,course]);
+        const isExist=selectedCourses.find(item => item.Id == course.Id)
+        
+        let count = course.credit;
+       
+
+        if(isExist){
+           return alert("already booked")
+        }
+        else{
+            selectedCourses.forEach((item) => {
+                count = count + item.credit;
+            });
+            const totleRemainig = 20 - count;
+            
+            if(count >= 20){
+                return alert("time over");
+            }
+            else{
+                setTotalCredit(count);
+            setRemaining(totleRemainig);
+            setSelectedCourses([...selectedCourses ,course]);
+            }
+            
+        }
     }
+
 
 console.log(selectedCourses)
     return (
@@ -32,7 +59,7 @@ console.log(selectedCourses)
                         <p className='description'><small>{course.description}</small></p>
                         <div className='info'>
                             <p>Price: {course.price}</p>
-                            <p>Credit: {course.credit}</p>
+                            <p>Credit: {course.credit} hr</p>
                         </div>
                         <button 
                         onClick={() => handleSelectCourse(course)}
@@ -42,7 +69,9 @@ console.log(selectedCourses)
                    }
                 </div>
                 <div className='cart'>
-                    <Cart selectedCourses={selectedCourses}></Cart>
+                    <Cart selectedCourses={selectedCourses} remaining={remaining} totalCredit={totalCredit}>
+
+                    </Cart>
                 </div>
             </div>
         </div>

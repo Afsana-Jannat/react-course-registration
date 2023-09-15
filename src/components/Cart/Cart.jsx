@@ -3,16 +3,21 @@
 import React from 'react';
 import "./Cart.css"
 
-const Cart = ({ selectedCourses }) => {
+const Cart = ({ selectedCourses, remaining, totalCredit }) => {
     console.log(selectedCourses)
     return (
-        <div>
-            <h2>Course Registration</h2>
+        <div className='selected-crs'>
+            <h2 className='remaining'>Credit Hour Remaining: {remaining} <small>hr</small></h2>
+            <hr />
+            <h2 className='course'>Course Registration</h2> 
             {
                 selectedCourses.map((course) =>(
-                    <li>{course.title}</li>
+                    <li key={course.Id}>{course.title}</li>
                 ))
             }
+            <hr />
+            <h3 className='totalcredit'>Total Credit Hour: {totalCredit}</h3>
+            
         </div>
     );
 };

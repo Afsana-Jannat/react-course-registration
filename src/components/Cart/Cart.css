@@ -1,0 +1,16 @@
+.course{
+    background-color: rgb(225, 237, 247);
+    border: 2px solid rgb(227, 238, 249);
+    border-radius: 5px;
+}
+.selected-crs{
+    background-color: azure;
+    border-radius: 8px;
+}
+.remaining{
+    color: rgb(47, 89, 138);
+    margin-bottom: 4px;
+}
+.totalcredit{
+    margin-bottom: 4px;
+}
