@@ -1,9 +1,46 @@
 .card{
     width: 250px;
-    height: 300px;
-    border: 1px solid gray;
+    border: 1px solid rgb(242, 232, 232);
+    background-color: rgb(249, 247, 247);
+    border-radius: 5px;
+    margin-bottom: 6px;
 }
 .photo{
-    width: 250px;
+    width: 260px;
 }
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-btn{
+    background-color: rgb(80, 80, 240);
+    color: rgb(229, 236, 241);
+    width: 230px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+/* .home-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+} */
+.home-container{
+    display: flex;
+}
+.card-container{
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
 
+}
+.description{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(28, 27, 27, 0.60);
+}
