@@ -1,0 +1,75 @@
+[
+    {
+      "Id": "1",
+      "cover": "../src/Asset/Rectangle 2-1.png",
+      "title": "Fake Book 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 19.99,
+      "credit": 50
+    },
+    {
+      "Id": "2",
+      "cover": "https://example.com/cover2.jpg",
+      "title": "Fake Book 2",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 24.99,
+      "credit": 45
+    },
+    {
+      "Id": "3",
+      "cover": "https://example.com/cover3.jpg",
+      "title": "Fake Book 3",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": 14.99,
+      "credit": 60
+    },
+    {
+      "Id": "4",
+      "cover": "https://example.com/cover4.jpg",
+      "title": "Fake Book 4",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 29.99,
+      "credit": 55
+    },
+    {
+      "Id": "5",
+      "cover": "https://example.com/cover5.jpg",
+      "title": "Fake Book 5",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 22.99,
+      "credit": 48
+    },
+    {
+      "Id": "6",
+      "cover": "https://example.com/cover6.jpg",
+      "title": "Fake Book 6",
+      "description": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+      "price": 17.99,
+      "credit": 52
+    },
+    {
+      "Id": "7",
+      "cover": "https://example.com/cover7.jpg",
+      "title": "Fake Book 7",
+      "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.",
+      "price": 27.99,
+      "credit": 58
+    },
+    {
+      "Id": "8",
+      "cover": "https://example.com/cover8.jpg",
+      "title": "Fake Book 8",
+      "description": "Quisque sit amet est et sapien ullamcorper pharetra.",
+      "price": 21.99,
+      "credit": 47
+    },
+    {
+      "Id": "9",
+      "cover": "https://example.com/cover9.jpg",
+      "title": "Fake Book 9",
+      "description": "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
+      "price": 18.99,
+      "credit": 53
+    }
+  ]
+  
