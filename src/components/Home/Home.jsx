@@ -4,14 +4,20 @@ import Cart from '../Cart/Cart';
 import "./Home.css"
 
 const Home = () => {
-    const [allCourse, setCourse] = useState([])
+    const [allCourse, setCourse] = useState([]);
+    const [selectedCourses, setSelectedCourses] = useState([]);
+
     useEffect(() => {
         fetch("./data.json")
             .then(res => res.json())
             .then((data) => setCourse(data))
     }, [])
 
-console.log(allCourse)
+    const handleSelectCourse = (course) => {
+        setSelectedCourses([...selectedCourses ,course]);
+    }
+
+console.log(selectedCourses)
     return (
         <div className='container'>
             <div className='home-container'>
@@ -28,13 +34,15 @@ console.log(allCourse)
                             <p>Price: {course.price}</p>
                             <p>Credit: {course.credit}</p>
                         </div>
-                        <button className='card-btn'>Select</button>
+                        <button 
+                        onClick={() => handleSelectCourse(course)}
+                        className='card-btn'>Select</button>
                     </div>
                     ))
                    }
                 </div>
                 <div className='cart'>
-                    <h1>rjl</h1>
+                    <Cart selectedCourses={selectedCourses}></Cart>
                 </div>
             </div>
         </div>
