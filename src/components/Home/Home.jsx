@@ -32,7 +32,7 @@ const Home = () => {
             });
             const totleRemainig = 20 - count;
             
-            if(count >= 20){
+            if(count > 20){
                 return alert("time over");
             }
             else{
@@ -48,15 +48,6 @@ const Home = () => {
         })
        setTotalPrice(price);
     }
-    
-    // const handlePrice = course =>{
-    //     let price = course.price;
-    //     selectedCourses.forEach((item) => {
-    //         price = price + item.price
-    //     })
-    //    console.log(price);
-
-    // }
 
 
 console.log(selectedCourses)

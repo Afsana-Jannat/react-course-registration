@@ -1,15 +1,15 @@
 [
     {
       "Id": "1",
-      "cover": "../src/Asset/Rectangle 2-2.png",
+      "cover": "https://i.ibb.co/ccMQgkD/Rectangle-3-1.png",
       "title": "Introduction to C Programming",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "It is a long established fact a reader willbe distracted by the readable content of a page when looking at its layout.",
       "price": 15000,
       "credit": 1
     },
     {
       "Id": "2",
-      "cover": "../src/Asset/Rectangle 2-3.png",
+      "cover": "https://i.ibb.co/gRQLDTk/Rectangle-2.png",
       "title": "Introduction to Algorithms",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price": 25000,
@@ -17,7 +17,7 @@
     },
     {
       "Id": "3",
-      "cover": "../src/Asset/Rectangle 2-4.png",
+      "cover": "https://i.ibb.co/MfmwfQn/Rectangle-2-1.png",
       "title": "ntroduction to C++ for DSA",
       "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "price": 1000,
@@ -25,7 +25,7 @@
     },
     {
       "Id": "4",
-      "cover": "../src/Asset/Rectangle 3.png",
+      "cover": "https://i.ibb.co/m8Ny6y9/Rectangle-2-2.png",
       "title": "Basic Data Structures",
       "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "price": 35000,
@@ -33,7 +33,7 @@
     },
     {
       "Id": "5",
-      "cover": "../src/Asset/Rectangle 2.png",
+      "cover": "https://i.ibb.co/SsxcmVT/Rectangle-2-3.png",
       "title": "Introduction to OOP Python",
       "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "price": 19000,
@@ -41,7 +41,7 @@
     },
     {
       "Id": "6",
-      "cover": "../src/Asset/Rectangle 2-5.png",
+      "cover": "https://i.ibb.co/D4z3QhC/Rectangle-2-4.png",
       "title": "Software Engineering",
       "description": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
       "price": 23000,
@@ -49,7 +49,7 @@
     },
     {
       "Id": "7",
-      "cover": "../src/Asset/Rectangle 3-1.png",
+      "cover": "https://i.ibb.co/YpzGVtg/Rectangle-2-5.png",
       "title": "AWS, Cloud Computing",
       "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.",
       "price": 35000,
@@ -57,7 +57,7 @@
     },
     {
       "Id": "8",
-      "cover": "../src/Asset/Rectangle 2-1.png",
+      "cover": "https://i.ibb.co/VQF0bJT/Rectangle-2-6.png",
       "title": "Database (MySQL)",
       "description": "Quisque esrt sit amet esst et course  sapien  ullamcorper pharetra.",
       "price": 19000,
@@ -65,11 +65,18 @@
     },
     {
       "Id": "9",
-      "cover": "../src/Asset/Rectangle 2-6.png",
+      "cover": "https://i.ibb.co/Sc5w3dm/Rectangle-3.png",
       "title": "Problem-Solving Part",
       "description": "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
       "price": 23000,
       "credit": 2
     }
   ]
+
+
+
+
+
+
+
   
